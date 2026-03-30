@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 .rotate {
     width: 20%;
     height: 20vh;
@@ -10,10 +11,11 @@ body {
      transition: transform 5s ease;
 margin: 0 auto 20px auto;
 }
+
 .rotate:hover {
 transform: rotate(1440deg);
- 
 }
+
 .move {
      width: 20%;
     height: 20vh;
@@ -23,9 +25,11 @@ transform: rotate(1440deg);
      transition: transform 2s ease;
 margin: 20px auto 0px auto;
 }
+
 .move:hover {
 transform: translate(200px, 200px) rotate(90deg) scale(2);
 }
+
 .div {
     width: 20%;
     height: 20%;
@@ -34,6 +38,7 @@ transform: translate(200px, 200px) rotate(90deg) scale(2);
     border-radius: 5px;
     margin: 30px auto 30px auto;
 }    
+
 .hello {
     width: 50%;
     height: 50%;
@@ -42,9 +47,11 @@ transform: translate(200px, 200px) rotate(90deg) scale(2);
     transition: transform 2s ease;
     margin: auto;
 }
+
 .hello:hover {
     transform: translate(40px, 40px) rotate(45deg) scale(1.5);
 }
+
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
