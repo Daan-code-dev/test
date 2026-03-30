@@ -55,3 +55,9 @@ transform: translate(200px, 200px) rotate(90deg) scale(2);
 p {
     font-size: 1.5rem;
 }
+.linear-gradient {
+    width: 20%;
+    height: 20vh;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, red, yellow);
+}
