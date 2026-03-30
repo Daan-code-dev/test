@@ -24,6 +24,6 @@ transform: rotate(1440deg);
 margin: 20px auto 0px auto;
 }
 .move:hover {
-transform: translate(0, 500px);
+transform: translate(200px, 200px) rotate(90deg) scale(2);
 }
     
