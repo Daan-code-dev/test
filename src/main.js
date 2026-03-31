@@ -16,7 +16,8 @@ tl.from('main div',{
     duration: 1.4,
     ease: 'elastic.out',
 stagger: 0.4,
-rotate: 10
+rotate: 10,
+delay: 1
 }, '-=0.6')
 
 tl.from('.sec1', {
@@ -41,3 +42,12 @@ tl.from('.sec3',{
     opacity: 0,
     duration: 2
 },'-=0.2')
+
+tl.from('.sec4', {
+    y: 40,
+opacity: 0,
+duration: 2.2,
+scale: 0.5,
+filter: 'blur(5px)',
+ease: 'expo.out'
+})

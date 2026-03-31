@@ -18,6 +18,7 @@ header {
 }
 h1 {
   font-size: 2.4rem;
+  margin-bottom: 20px;
 }
 p {
   font-size: 1.1rem;
@@ -32,37 +33,56 @@ main {
 }
 div {
 width: 50%;
-height: 33vh;
+height: 25vh;
 background-color: rgb(220, 220, 220);
 border: 3px solid black;
 border-radius: 5px;
+padding: 5px;
 }
 .sec1 {
   width: 80%;
-  height: 30vh;
+  height: 12vh;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
   margin: 30px auto;
+  padding: 5px;
 }
 .sec2 {
   width: 80%;
-  height: 30vh;
+  height: 12vh;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
   margin: 30px auto;
   opacity: 0;
   transform: rotate(45deg) scale(2);
-  
+  padding: 5px;
 }
 
 .sec3 {
   width: 80%;
-  height: 30vh;
+  height: 12vh;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
   margin: 30px auto;
+padding: 5px;
+}
+.sec4 {
+    width: 80%;
+  height: 12vh;
+  background-color: olive;
+  border: 3px solid black;
+  border-radius: 5px; 
+  margin: 30px auto;
+padding: 5px; 
+text-align: center;
 
 }
+span {
+  font-size: 4rem;
+  font-weight: bolder;
+  
+}
+
