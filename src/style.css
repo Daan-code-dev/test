@@ -19,6 +19,10 @@ header {
 h1 {
   font-size: 2.4rem;
 }
+p {
+  font-size: 1.5re;
+}
+
 main {
   display: flex;
   width: 90%;
