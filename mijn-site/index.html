@@ -7,10 +7,18 @@
   </head>
   <body>
     <header>
-      <h1>Mijn Site</h1>
+      <h1>Fill in the form</h1>
     </header>
     <main>
-      <p>Dit draait op Vite.</p>
+      <form>
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="age">Age</label>
+        <input tpye="number" id="age" name="age">
+      </fieldset>
+      </form>
     </main>
     <script type="module" src="/src/main.js"></script>
   </body>
