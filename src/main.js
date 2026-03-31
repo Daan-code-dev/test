@@ -36,5 +36,8 @@ ease: 'power2.out',
 scale: 1,
 }, '-=0.5')
 
-
-
+tl.from('.sec3',{
+    y: 200,
+    opacity: 0,
+    duration: 2
+},'-=0.2')
