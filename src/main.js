@@ -50,7 +50,7 @@ duration: 2.2,
 scale: 0.5,
 filter: 'blur(5px)',
 ease: 'expo.out'
-})
+},'-=0.3')
 
 tl.from('.sec5', {
     y: 40,
@@ -60,4 +60,4 @@ scale: 10,
 filter: 'blur(2px)',
 rotation: 90, 
 ease: 'expo.out'
-})
+},'-=0.2')
