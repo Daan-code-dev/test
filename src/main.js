@@ -29,7 +29,7 @@ ease: 'expo.out'
 }, '-=0.4') 
 
 tl.to('.sec2', {
-opacity: 0.5,
+opacity: 1,
 duration: 1.4,
 rotate: 0,
 ease: 'power2.out',
