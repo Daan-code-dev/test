@@ -13,10 +13,10 @@ tl.from('h1', {
 tl.from('main div',{
     y: 20,
     opacity: 0,
-    duration: 1.4,
+    duration: 1.6,
     ease: 'elastic.out',
 stagger: 0.4,
-rotate: 10,
+rotate: 14,
 delay: 1
 }, '-=0.6')
 
@@ -49,5 +49,15 @@ opacity: 0,
 duration: 2.2,
 scale: 0.5,
 filter: 'blur(5px)',
+ease: 'expo.out'
+})
+
+tl.from('.sec5', {
+    y: 40,
+opacity: 0,
+duration: 4,
+scale: 10,
+filter: 'blur(2px)',
+rotation: 90, 
 ease: 'expo.out'
 })
