@@ -32,7 +32,7 @@ tl.to('.sec2', {
 opacity: 0.5,
 duration: 1.4,
 rotate: 0,
-ease: 'expo.out',
+ease: 'power2.out',
 scale: 1,
 }, '-=0.5')
 

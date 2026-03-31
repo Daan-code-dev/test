@@ -21,10 +21,10 @@ h1 {
 }
 main {
   display: flex;
-  width: 80%;
+  width: 90%;
   justify-content: center;
   margin: 0 auto;
-  gap: 100px;
+  gap: 80px;
 }
 div {
 width: 50%;
