@@ -33,7 +33,7 @@ main {
 }
 div {
 width: 50%;
-height: 25vh;
+height: auto;
 background-color: rgb(220, 220, 220);
 border: 3px solid black;
 border-radius: 5px;
@@ -41,7 +41,7 @@ padding: 5px;
 }
 .sec1 {
   width: 80%;
-  height: 12vh;
+  height: auto;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
@@ -50,7 +50,7 @@ padding: 5px;
 }
 .sec2 {
   width: 80%;
-  height: 12vh;
+  height: auto;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
@@ -62,7 +62,7 @@ padding: 5px;
 
 .sec3 {
   width: 80%;
-  height: 12vh;
+  height: auto;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
@@ -71,7 +71,7 @@ padding: 5px;
 }
 .sec4 {
     width: 80%;
-  height: 12vh;
+  height: auto;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
@@ -81,7 +81,7 @@ padding: 5px;
 }
 .sec5 {
     width: 80%;
-  height: 12vh;
+  height: auto;
   background-color: olive;
   border: 3px solid black;
   border-radius: 5px; 
