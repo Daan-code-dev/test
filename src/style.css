@@ -31,8 +31,8 @@ header {
 .nav-link {
   padding: 14px 28px;
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: #fff;
   text-decoration: none;
   border-radius: 50px;
@@ -297,7 +297,7 @@ main div p {
   100% { transform: rotate(360deg); }
 }
 
-/* Effects Panel */
+/* Effects Pbanel */
 .effects-panel {
   display: flex;
   justify-content: center;
