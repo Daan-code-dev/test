@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "opencode-ai": "^1.3.13",
     "vite": "^8.0.1"
   },
   "dependencies": {
