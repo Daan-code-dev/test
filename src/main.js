@@ -14,7 +14,7 @@ const tl = gsap.timeline()
 tl.to('h1', { opacity: 1, y: 0, duration: 1.2, ease: 'power2.out' })
 tl.to('main div', { opacity: 1, y: 0, duration: 1, stagger: 0.2, ease: 'power2.out' }, '+=0.2')
 tl.to('.sec1, .sec2, .sec3, .sec4, .sec5, .sec6', { opacity: 1, y: 0, scale: 1, duration: 1, stagger: 0.2, ease: 'power2.out' }, '+=0.2')
-tl.to('.guitar-section', { opacity: 1, y: 0, duration: 1.5, ease: 'power2.out' }, '+=0.2')
+tl.to('.guitar-section', { opacity: 1, y: 0, duration: 1.8, ease: 'power2.out' }, '+=0.2')
 tl.to('.form-section', { opacity: 1, scale: 1, duration: 1, ease: 'power2.out' }, '+=0.2')
 tl.to('.footer', { opacity: 1, y: 0, duration: 1, ease: 'power2.out' }, '+=0.2')
 
