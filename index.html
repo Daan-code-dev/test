@@ -209,20 +209,19 @@
         <rect x="100" y="25" width="100" height="65" rx="6" fill="url(#woodGrain)"/>
         
         <g class="tuning-pegs">
-          <rect x="95" y="35" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-1" data-peg="1" cx="105" cy="39" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
-          <rect x="95" y="55" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-2" data-peg="2" cx="105" cy="59" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="95" y="30" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-1" data-peg="1" cx="105" cy="34" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="95" y="48" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-2" data-peg="2" cx="105" cy="52" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="95" y="66" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-3" data-peg="3" cx="105" cy="70" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
           
-          <rect x="190" y="35" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-3" data-peg="3" cx="195" cy="39" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
-          <rect x="190" y="55" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-4" data-peg="4" cx="195" cy="59" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
-          
-          <rect x="95" y="75" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-5" data-peg="5" cx="105" cy="79" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
-          <rect x="95" y="55" width="15" height="8" fill="#888" rx="2"/>
-          <circle class="tuning-peg peg-6" data-peg="6" cx="105" cy="59" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="190" y="30" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-4" data-peg="4" cx="195" cy="34" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="190" y="48" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-5" data-peg="5" cx="195" cy="52" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
+          <rect x="190" y="66" width="15" height="8" fill="#888" rx="2"/>
+          <circle class="tuning-peg peg-6" data-peg="6" cx="195" cy="70" r="7" fill="#C0C0C0" stroke="#666" stroke-width="1.5"/>
         </g>
         
         <rect x="143" y="82" width="14" height="20" fill="#d4af37" stroke="#b8960c" stroke-width="1"/>
@@ -278,17 +277,17 @@
       <form>
         <div class="form-group">
           <label for="favorite-song">Wat is je favoriete liedje?</label>
-          <input type="text" id="favorite-song" placeholder="Bijv. Stairway to Heaven">
+          <input type="text" id="favorite-song" placeholder="Bijv. Stairway to Heaven" required>
         </div>
         <div class="form-group">
           <label for="favorite-guitarist">Wie is je favoriete gitarist?</label>
-          <input type="text" id="favorite-guitarist" placeholder="Bijv. Jimi Hendrix">
+          <input type="text" id="favorite-guitarist" placeholder="Bijv. Jimi Hendrix" required>
         </div>
         <div class="form-group">
           <label>Speel je gitaar?</label>
           <div class="radio-group">
             <label class="radio-label">
-              <input type="radio" name="play-guitar" value="yes">
+              <input type="radio" name="play-guitar" value="yes" required>
               <span class="radio-custom"></span>
               Ja, ik speel gitaar!
             </label>
