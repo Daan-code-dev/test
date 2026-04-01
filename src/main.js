@@ -1,6 +1,6 @@
 import './style.css'
-console.log('Het werkt!')
 import gsap from 'gsap'
+
 const tl = gsap.timeline()
 tl.from('h1', {
     y: 20,
@@ -15,26 +15,25 @@ tl.from('main div',{
     opacity: 0,
     duration: 1.6,
     ease: 'elastic.out',
-stagger: 0.4,
-rotate: 14,
-delay: 1
+    stagger: 0.4,
+    rotate: 14,
+    delay: 1
 }, '-=0.6')
 
 tl.from('.sec1', {
-y: 40,
-opacity: 0,
-duration: 2.2,
-scale: 0.5,
-filter: 'blur(5px)',
-ease: 'expo.out'
+    y: 40,
+    opacity: 0,
+    duration: 2.2,
+    scale: 0.5,
+    filter: 'blur(5px)',
+    ease: 'expo.out'
 }, '-=0.4') 
 
-tl.to('.sec2', {
-opacity: 1,
-duration: 1.4,
-rotate: 0,
-ease: 'power2.out',
-scale: 1,
+tl.from('.sec2', {
+    y: 40,
+    opacity: 0,
+    duration: 1.4,
+    ease: 'power2.out',
 }, '-=0.5')
 
 tl.from('.sec3',{
@@ -45,19 +44,18 @@ tl.from('.sec3',{
 
 tl.from('.sec4', {
     y: 40,
-opacity: 0,
-duration: 2.2,
-scale: 0.5,
-filter: 'blur(5px)',
-ease: 'expo.out'
+    opacity: 0,
+    duration: 2.2,
+    scale: 0.5,
+    filter: 'blur(5px)',
+    ease: 'expo.out'
 },'-=0.3')
 
 tl.from('.sec5', {
     y: 40,
-opacity: 0,
-duration: 4,
-scale: 10,
-filter: 'blur(2px)',
-rotation: 90, 
-ease: 'expo.out'
+    opacity: 0,
+    duration: 2,
+    scale: 0.8,
+    filter: 'blur(2px)',
+    ease: 'expo.out'
 },'-=0.2')
