@@ -39,7 +39,50 @@
     <section class="sec5">
        <p>Verzorg je gitaar door de snaren regelmatig te vervangen en het instrument schoon te houden. Een goed onderhouden gitaar klinkt niet alleen beter, maar gaat ook veel langer mee.</p>
     </section>
-  
+   
+    <section class="form-section">
+      <div class="form-container">
+        <h2>Vertel ons over jezelf!</h2>
+        <p class="form-subtitle">Deel je muziekpassie met ons</p>
+        <form>
+          <div class="form-group">
+            <label for="favorite-song">Wat is je favoriete liedje?</label>
+            <input type="text" id="favorite-song" name="favorite-song" placeholder="Bijv. Stairway to Heaven">
+          </div>
+          <div class="form-group">
+            <label for="play-guitar">Speel je gitaar?</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="play-guitar" value="yes">
+                <span class="radio-custom"></span>
+                Ja, ik speel gitaar!
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="play-guitar" value="learning">
+                <span class="radio-custom"></span>
+                Ik ben aan het leren
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="play-guitar" value="no">
+                <span class="radio-custom"></span>
+                Nee, maar ik zou willen!
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="idol">Wie is je idool?</label>
+            <input type="text" id="idol" name="idol" placeholder="Bijv. Jimi Hendrix">
+          </div>
+          <button type="submit" class="submit-btn">
+            <span> Versturen </span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+   
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

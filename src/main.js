@@ -59,3 +59,11 @@ tl.from('.sec5', {
     filter: 'blur(2px)',
     ease: 'expo.out'
 },'-=0.2')
+
+tl.from('.form-section', {
+   y: 0,
+   opacity: 0, 
+   duration: 1,
+   scale: 0.7,
+   ease: 'expo.out'
+}, '-=0.2')
